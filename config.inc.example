@@ -1,0 +1,4 @@
+LANG=fr_FR
+BASE_URL=https://m.uber.com/cn-dclocal
+BASE_DIR=/path/to/project
+TMP_DIR=/tmp
