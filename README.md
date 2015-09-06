@@ -4,10 +4,10 @@ Ce projet est un ensemble de script permettant de récupérer les données json 
 
 ## Récupération des données
 
-### Récuperer son numéro de token personnel pour utiliser l'api
+Récupérer le token lié à son compte uber afin de pouvoir utiliser l'api de uber : 
 
 > bash token.sh email password 
 
-### Récupérer le json
+Récupération du json émit par l'api de uber à une position données
 
 > bash get.sh your_token latitude longitude
