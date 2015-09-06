@@ -1,0 +1,1 @@
+cat $1 | jq '.features[].geometry.coordinates' | tr -d "\n" | sed 's/\[  //g' | sed 's/\]/\n/g' | sed 's/,  / /' | awk -F " " '{ print $2 " " $1 }'
